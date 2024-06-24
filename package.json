@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.2.0",
+    "password-hash": "^1.2.2"
+  }
+}

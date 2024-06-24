@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://t3.ftcdn.net/jpg/03/46/14/30/360_F_346143059_HJSSw7TxF0C7SnZcrXYN2vR7DHHOCOxJ.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background:black;
+    border-radius: 20px;
+    box-shadow: 0 20px 30px rgba(189, 183, 183, 0.2);
+    width: 450px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    color:red;
+    height: 400px;
+    padding-right: 60px;
+    opacity: 2;
+    
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: gray;
+}
+.container input:hover{
+    background-color: rgb(223, 228, 228);
+}
+
+.container button {
+    width: 100%;
+    padding: 10px;
+    background-color: red;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container button:hover {
+    background-color: rgb(98, 178, 98);
+    color: white;
+    font-weight: 5px;
+}
